@@ -1,0 +1,12 @@
+1) Verdadero o falso
+1.a) Verdadero
+El acoplamiento bajo implica que una clase tiene pocas dependencias, lo que favorece su reutilización y mantenimiento.
+
+1.b) Verdadero
+La encapsulación busca proteger los atributos y que solo sean accedidos mediante métodos (getters/setters).
+
+1.c) Verdadero
+type(objeto) devuelve la clase del objeto (ej: <class '__main__.MiClase'>).
+
+1.d) Verdadero
+La abstracción oculta los detalles internos y muestra solo lo necesario para usar el objeto.
