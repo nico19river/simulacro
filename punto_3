@@ -1,0 +1,19 @@
+3) Decoradores básicos
+3.a)
+Un decorador en Python es una función que modifica el comportamiento de otra función sin cambiar su código.
+
+3.b)
+
+
+def anunciar(func):
+    def wrapper(*args, **kwargs):
+        print("Ejecutando función...")
+        return func(*args, **kwargs)
+    return wrapper
+
+@anunciar
+def sumar(a, b):
+    return a + b
+
+resultado = sumar(3, 4)
+print(resultado)
