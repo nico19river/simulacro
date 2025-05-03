@@ -1,0 +1,16 @@
+2) Herencia simple
+
+class Vehiculo:
+    def __init__(self, marca):
+        self.marca = marca
+
+    def info(self):
+        return f"Vehículo: {self.marca}"
+
+class Coche(Vehiculo):
+    def __init__(self, marca, pasajeros):
+        super().__init__(marca)
+        self.pasajeros = pasajeros
+
+    def info(self):
+        return f"Coche: {self.marca}, pasajeros: {self.pasajeros}"
